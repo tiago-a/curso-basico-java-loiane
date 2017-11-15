@@ -14,7 +14,12 @@ public class Exercicio034 {
 		
 		for (double i = 1; i <= Ntermo; i++) {
 			fracao = 1/i;
+<<<<<<< HEAD
 			H = H + fracao;
+=======
+//			H = H + fracao;
+			H += fracao;
+>>>>>>> adc920336f0fdddf4cca6ef9c5e11154ae9d6ea2
 //			System.out.println(fracao);
 //			System.out.println(H);
 		}
