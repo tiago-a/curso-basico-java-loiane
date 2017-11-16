@@ -18,7 +18,7 @@ public class Exercicio017 {
 		
 		for (int i = 0; i < vetorA.length; i++) {
 			if (vetorA[i] > 35) {
-				System.out.println("Pessoa #" + (i + 1) + " tem mais de 35 anos");
+				System.out.println("A pessoa #" + (i + 1) + " tem mais de 35 anos");
 			}
 		}
 
