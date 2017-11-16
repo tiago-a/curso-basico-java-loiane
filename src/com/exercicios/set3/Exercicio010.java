@@ -1,21 +1,21 @@
 package com.exercicios.set3;
 
-<<<<<<< HEAD
-=======
+
+
 import java.util.Scanner;
 
->>>>>>> adc920336f0fdddf4cca6ef9c5e11154ae9d6ea2
+
 public class Exercicio010 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-<<<<<<< HEAD
+
 		for(int i = 0; i < 50; i++) {
 			if (i%2 != 0) {
 				System.out.println(i);
 			}
 		}
-=======
+
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Digite o primeiro número:");
@@ -28,7 +28,7 @@ public class Exercicio010 {
 			System.out.println(i);
 		}
 		
->>>>>>> adc920336f0fdddf4cca6ef9c5e11154ae9d6ea2
+
 
 	}
 

@@ -9,11 +9,11 @@ public class Exercicio006 {
 		}
 		
 		for (int i = 1; i <= 20; i++) {
-<<<<<<< HEAD
+
 			System.out.print(i);
-=======
+
 			System.out.print(i + " ");
->>>>>>> adc920336f0fdddf4cca6ef9c5e11154ae9d6ea2
+
 		}
 
 	}

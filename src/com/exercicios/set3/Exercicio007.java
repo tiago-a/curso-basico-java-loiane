@@ -8,12 +8,12 @@ public class Exercicio007 {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		double temp = 0;
-<<<<<<< HEAD
-=======
+
+
 		int teste = Integer.MIN_VALUE; //Loiane
 		
 		System.out.println("teste: " + teste);
->>>>>>> adc920336f0fdddf4cca6ef9c5e11154ae9d6ea2
+
 		
 		for (int i = 0; i < 5; i++) {
 			System.out.println("Digite um número: ");
