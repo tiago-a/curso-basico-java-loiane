@@ -1,8 +1,13 @@
 package com.exercicios.set5;
 
+import java.util.Random;
+
 public class Exercicio001 {
 
 	public static void main(String[] args) {
+		
+		Random numeroR = new Random();
+		
 		int[][] matrix = new int[4][4];
 		int temp = 0;
 		int max = 0;
@@ -11,7 +16,8 @@ public class Exercicio001 {
 		
 		for (int i = 0; i < matrix.length; i++) {
 			for (int j = 0; j < matrix[i].length; j++) {
-				matrix[i][j] = (int) Math.round(Math.random() * 20);
+//				matrix[i][j] = (int) Math.round(Math.random() * 20);
+				matrix[i][j] = numeroR.nextInt(20);
 				System.out.println("matrix[" + i + "][" + j + "]: " + matrix[i][j]);
 				temp = matrix[i][j];
 				if (temp > max) {
