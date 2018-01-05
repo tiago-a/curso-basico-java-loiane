@@ -10,6 +10,8 @@ public class Exercicio001 {
 		lampada.preco = 40.0;
 		lampada.tipo = "LED";
 		
+		lampada.tipos = new String[2];
+		
 		System.out.println(lampada.marca);
 		System.out.println(lampada.modelo);
 		System.out.println(lampada.potencia);

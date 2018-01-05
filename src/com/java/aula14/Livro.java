@@ -5,6 +5,7 @@ public class Livro {
 	String autor;
 	String editora;
 	String categoria;
+	String isbn;
 	int numeroPaginas;
 	double preco;
 }

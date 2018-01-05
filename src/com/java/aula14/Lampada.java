@@ -6,4 +6,5 @@ public class Lampada {
 	String marca;
 	String modelo;
 	String tipo;
+	String[] tipos;
 }

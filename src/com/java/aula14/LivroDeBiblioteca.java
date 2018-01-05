@@ -1,5 +1,7 @@
 package com.java.aula14;
 
+import java.util.Date;
+
 public class LivroDeBiblioteca {
 	String titulo;
 	String autor;
@@ -10,4 +12,6 @@ public class LivroDeBiblioteca {
 	String dataRetirada;
 	String dataDevolucao;
 	String retiradoPor;
+	
+	Date dataEntrega;
 }
