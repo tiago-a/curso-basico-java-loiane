@@ -1,0 +1,15 @@
+Curso de Java 29 - OrientaÃ§Ã£o a Objetos: Construtores
+
+	- Boas pratias: Quando tiver um construtor com parametros criar tambem um construtor vazio, pois muitos dos frameworks do java precisam de um construtor vazio (Hibernate por exemplo).
+	
+Curso de Java 30 - Orientação a Objetos: Palavra chave this
+
+	- A palavra chave 'this' serve para especificar que os atributos/metodos utilizados sao da propria classe.
+	- 'this(parametro1, parametro2, ...)' chama outros construtores.
+	
+Curso de Java 31 - Orientação a Objetos: Modificadores private e public
+
+	- default - classes com modificador de acesso 'default' so podem ser 'vistas' dentro do proprio pacote. (Ex: class Carro { ... }) [o 'deafult' e nao ter nada antes de 'class`]
+	- public - acessivel por qualquer classe e pacote.
+	- private - acessivel apenas pela propria classe, nao e nem acessivel por outras classes do mesmo pacote.
+	- protected
