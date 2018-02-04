@@ -20,3 +20,19 @@ Curso de Java 31 - Orientação a Objetos: Modificadores private e public
 	
 
 
+Curso de Java 32 - Orientação a Objetos: Encapsulamento: métodos getters e setters
+
+	- Para atributos do tipo boolean, o 'get' do atributo eh 'is..'
+		Exemplo: private boolean ligada
+				 public boolean isLigada(){
+				 	return this.ligada;
+				 }
+
+Curso de Java 34 - Orientação a Objetos: Variáveis e metodos estáticos (modificador static)
+
+	- o modificador 'static' serve para evitar de criar uma instancia de uma classe, caso a necessecidade seja usar apenas um metodo
+		Exemplo: MinhaCalculadora eh um classe que tem um metodo de somar, este metodo deve ser declarado como 'static'
+				 public static int soma(int num1, int num2){
+				 	return num1 + num2;
+				 }
+	- o modificador 'static' tambem serve para criar metodos auxiliares que possam ser acessados pelo 'main'
