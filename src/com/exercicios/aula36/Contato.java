@@ -23,5 +23,10 @@ public class Contato {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	public void printInfo() {
+		System.out.println("Informações do Contato: " + this.nome);
+		System.out.println("Telefone: " + this.telefone);
+		System.out.println("E-mail: " + this.email);
+	}
 	
 }
