@@ -27,6 +27,7 @@ public class Contato {
 		System.out.println("Informações do Contato: " + this.nome);
 		System.out.println("Telefone: " + this.telefone);
 		System.out.println("E-mail: " + this.email);
+		System.out.println();
 	}
 	
 }
