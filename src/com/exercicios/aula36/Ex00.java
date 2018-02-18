@@ -47,7 +47,10 @@ public class Ex00 {
 		
 		a1.setContato(contatos);
 		
-		a1.printAllContacts();
+//		a1.printAllContacts();
+		System.out.println("Digite o númedo do contato para ser printado: ");
+		int i = scan.nextInt();
+		a1.printSingleContact(i);
 
 		
 

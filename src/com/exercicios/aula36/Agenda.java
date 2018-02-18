@@ -25,5 +25,8 @@ public class Agenda {
 			c.printInfo();
 		}
 	}
+	public void printSingleContact(int i) {
+		this.contatos[i].printInfo();
+	}
 	
 }
