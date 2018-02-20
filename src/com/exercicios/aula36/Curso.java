@@ -34,7 +34,7 @@ public class Curso {
 		System.out.println("Informações do Curso.");
 		System.out.println("Nome: " + this.nome);
 		System.out.println("Horario: " + this.horario);
-		System.out.println(this.professor.printInfo());
+		this.professor.printInfo();
 //		sy
 	}
 }
