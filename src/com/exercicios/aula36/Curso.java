@@ -3,6 +3,7 @@ package com.exercicios.aula36;
 public class Curso {
 	private String nome;
 	private String horario;
+	private double media;
 	private Professor professor;
 	private Aluno[] alunos;
 	
@@ -30,11 +31,25 @@ public class Curso {
 	public void setAlunos(Aluno[] alunos) {
 		this.alunos = alunos;
 	}
+	public double getMedia() {
+		return media;
+	}
+	public void setMedia(double media) {
+		this.media = media;
+	}
 	public void printInfo() {
 		System.out.println("Informações do Curso.");
 		System.out.println("Nome: " + this.nome);
 		System.out.println("Horario: " + this.horario);
+		System.out.println("Info Professor: ");
 		this.professor.printInfo();
-//		sy
+		System.out.println("Media da Turma: " + this.calculaMedia());
+	}
+	private double calculaMedia() {
+		double total = 0.0;
+		for (int i = 0; i < this.alunos.length; i++) {
+			total += this.alunos[i].getMedia();
+		}
+		return total/this.alunos.length;
 	}
 }
