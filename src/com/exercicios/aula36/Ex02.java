@@ -88,6 +88,7 @@ public class Ex02 {
 		curso.setProfessor(professor);
 		curso.setAlunos(alunos);
 		curso.printInfo();
+		scan.close();
 	}
 
 }
