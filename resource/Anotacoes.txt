@@ -36,3 +36,145 @@ Curso de Java 34 - Orientação a Objetos: Variáveis e metodos estáticos (modifica
 				 	return num1 + num2;
 				 }
 	- o modificador 'static' tambem serve para criar metodos auxiliares que possam ser acessados pelo 'main'
+	
+	
+Curso de Java 37 - Orientação a Objetos: Herança
+
+	- o modificador 'extends' serve para indicar que a clase é filha de outra classe, ou seja, herda os metodos e atributos.
+	
+
+Curso de Java 38 - Orientação a Objetos: Herança: Palavra chave super
+
+	- a palavra chava 'super' serve para acessar a classe mãe
+		Ex: em um contrutor a expressao 'super()' significa que o construtor da classe mae está sendo chamada na instanciação da clase filha.
+		
+		
+Curso de Java 39 - Orientação a Objetos: Herança: modificadores de acesso + protected
+
+	default		: somente classes do proprio pacote
+	protected	: as classes filhas tem acesso a esses atributos ou metodos, independente do pacote.
+	private		: somente dentro da propria clase
+	public		: todos tem acesso de qualquer ponto do projeto
+
+
+Curso de Java 40: Orientação a Objetos: Herança e Polimorfismo: sobrecarga de métodos
+
+	- Polimorfismo é quando um classe filha sobre escreve um metodo declarado na classe pai
+	- uma classe filha pode ser instanciada do tipo Pai mas construida com o construtor filha
+		Ex: Pessoa - classe pai
+			Aluno - classe filha (extends Pessoa)
+			Professor - classe filha (extends Pessoa)
+			
+			Pessoa pessoa = new Pessoa();
+			Pessoa aluno = new Aluno();
+			Pessoa professor = new Professor();
+			
+			pessoa.metodoSobrescrito();  	// aqui o metodo executado sera o declarado na classe Pessoa
+			aluno.metodoSobrescrito();		// aqui o metodo executado sera o declarado na classe Aluno, caso esse metodo foi sobre escrito, se nao será executado o da classe Pessoa
+			professor.metodoSobrescrito();	// aqui o metodo executado sera o declarado na classe Professor, caso esse metodo foi sobre escrito, se nao será executado o da classe Pessoa
+			
+			
+Curso de Java 41: Orientação a Objetos: Herança: classes abstratas
+
+	- Classes abstratas não podem ser instanciadas, elas devem ser extendidas e ai suas classes filha serão instanciadas com metodos e atributos da sua classe pai que é abstrata
+	- Um classe abstrata pode ter um método abstrado, que nao deve ser implementado na propria classe, e devera ser implementado diretamente nas classes que extederam a classe abstrata
+	
+	
+Curso de Java 42: Orientação a Objetos: Palavra chave final
+
+	- Palavra chave final serve para indicar que a classe nao pode ser extendida
+	- No caso de atributos significa que o atributo nao pode ser modificado, ou seja, é considerado uma constante.
+	- É boa prática ter o nome das constantes de maiusculo.
+	
+		Ex: É comun ter uma classe só de constantes.
+		
+			public final class Constantes {
+				
+				public static final String URL_PAGINA = "www.google.com"
+			
+			}	
+
+
+Curso de Java 43: Orientação a Objetos: Classe Object
+
+	- A classe Object é a classe mae de todas as classes.
+	- Os metodos toString e equals são metodos que é comunm sobrescrevelos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
