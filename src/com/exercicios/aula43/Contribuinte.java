@@ -6,6 +6,11 @@ public class Contribuinte {
 	private double imposto;
 	private double renda;
 	
+	public Contribuinte(String nome, double renda) {
+		this.nome = nome;
+		this.renda = renda;
+	}
+	
 	public Contribuinte(String nome, double taxa, double renda) {
 		this.nome = nome;
 		this.taxa = taxa;
