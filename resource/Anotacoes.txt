@@ -197,7 +197,20 @@ Curso de Java 50: Exceptions: stacktrace e throws
 	- e.printStackTrace() é o metodo que é utilizado para saber onde o erro aconteceu
 	- Error: resulta na finalização do programa
 	- Exception: possível tratar o erro e continuar execução do programa
+	- throws é utilizado para passar a responsabilidade de tratar o erro para quem utiliza o método
+	
 
+Curso de Java 51: Exceptions: tipos de erros no Java
+
+	- Error: é um erro que não pode ser tratado, como erro 'outOfMemory'
+	- Exception unchecked: São exeções que ocorrem em tempo de execução como: ArrayIndexOutOfBoundsException, NullPointerException...
+	- Exception checked: Devem ser tratadas quando estiver codificando
+
+
+Curso de Java 52: Exceptions: criando sua própria exceção
+
+	- Devemos extender a classe Exception, sobrescreve o método toString()
+	- 'throw new' é utilizado para lançar a exceção
 
 
 
