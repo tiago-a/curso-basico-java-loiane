@@ -3,7 +3,7 @@ package com.exercicios.aula46;
 public class FiguraGeometrica {
 	private String nome;
 	private String cor;
-	
+		
 	public FiguraGeometrica(String nome, String cor) {
 		super();
 		this.nome = nome;
