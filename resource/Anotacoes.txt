@@ -101,6 +101,85 @@ Curso de Java 43: Orientação a Objetos: Classe Object
 	- Os metodos toString e equals são metodos que é comunm sobrescrevelos
 
 
+Curso de Java 44: Orientação a Objetos: Interfaces
+	
+	- Interface : equivalente a uma classe abstrata que contém apenas métodos sem nenhum atrubuto.
+	- É utilizado pois no Java não é possivel extender mais de uma classe
+	- Interface define qual o comportamente uma classe precisa implentar, a interface apenas define a assinatura
+	- Declaração Interface:
+	- É comum ter uma interface de constantes apenas (Todo atributo dentro de uma interface é sempre public static e final).
+	
+	public interface ExemploInterface {
+		
+		void metodoExemplo();
+		double outroMetodoExemplo();
+		
+	}
+	
+	- implements é a palavra chave para implementar uma Interface.
+	- para implementar mais de uma interface:
+	
+	public class ClasseDeTeste implements Interface1, Interface2 {
+		...
+	}
+	
+	- Exemplo de interface de constantes:
+	
+	public interface Constantes {
+	
+		String CONSTANTE_01 = "bla bla bla";
+		String CONSTANTE_02 = "aaaaa";
+		...	
+	}
+	
+	
+Curso de Java 45: Orientação a Objetos: Casting e instaceof
+
+	- Upcasting: É quando uma classe pai (ou acima) de uma classe filha recebe uma instancia.
+		Ex:
+			Aluno aluno = new Aluno();
+			Object o = aluno;
+		
+		Upcasting automatico:
+			Pessoa aluno = new Aluno();
+		Upcasting Manual:
+			Pessoa aluno = (Pessoa) new Aluno();
+	
+	- Downcasting: É quando uma classe filha recebe uma instancia de uma classe pai (ou acima)
+		Ex:
+			Object obj1 = "Aqui é uma String";
+			String s1 = (String) obj1;
+			
+	- instanceof: Serve para verificar se uma objeto instaciado é de um certo tipo
+		Ex:
+			Pessoa p1 = new Pessoa();
+			
+			p1 instanceof Pessoa - deve retornar true pois p1 é uma instancia da classe Pessoa.
+
+
+Curso de Java 46: Orientação a Objetos: Interface e herança
+
+	- "Existe herança multipla no Java? Não, o Java não permite, porem é possivel implentar mais de uma interface."
+	- Possivel que uma interface extenda a outras interfaces.
+		Ex:
+			public interface InterOne extends Interface1, Interface2 {
+				...
+			}
+	- Uma classe pode extender apenas uma classe porém pode implementar quantas interfaces forem necessárias
+	- Uma interface pode extender quantas interfaces for necessarias, a primeira classe que implementar essa interface deverá implementar todos os metodos herdados pela primeira interface.
+	- Interfaces não tem construtores.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
