@@ -7,5 +7,8 @@ public class Ex02 {
 		c1.imprimeRendas();
 		PessoaJuridica p1 = new PessoaJuridica("Locao", 9000.0);
 		p1.imprimeRendas();
+		PessoaFisica p2 = new PessoaFisica("Tiagoo", 2800.0);
+		p2.imprimeRendas();
+		p2.imprimeRendas();
 	}
 }
