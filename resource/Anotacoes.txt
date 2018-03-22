@@ -170,7 +170,43 @@ Curso de Java 46: Orientação a Objetos: Interface e herança
 	- Interfaces não tem construtores.
 
 
+Curso de Java 47: Exceptions: try, catch
 
+	- códigos dentro do bloco 'try' são codigo que podem dar erros
+	- o 'catch' serve para tratar o erro que pode ter acontecido
+	- Nao tratar erros fazer os programas terminarem
+
+
+Curso de Java 48: Exceptions: multiplos catch
+
+	- É possivel usar mais de um 'catch' após um 'try'
+	- O primeiro 'catch' tem uma prioridade maior, ou seja, deve ser um erro mais especifico
+	- Por último deve ficar os erros mais genéricos
+
+
+Curso de Java 49: Exceptions: finally
+
+	- o bloco 'finally' é sempre executado após o 'try' ou 'catch'
+	- caso exista um código similar a 'System.exit(0)' dentro dos blocos 'try' ou 'catch' o 'finally' não será executado
+	
+	
+Curso de Java 50: Exceptions: stacktrace e throws
+
+	- Execption é a classe de erro utilizada para pegar todos tipos de erro, como sendo genérica
+	- e.getMessage() é o método para buscar a causa do erro
+	- e.printStackTrace() é o metodo que é utilizado para saber onde o erro aconteceu
+	- Error: resulta na finalização do programa
+	- Exception: possível tratar o erro e continuar execução do programa
+
+
+
+
+
+
+
+
+
+ 
 
 
 
